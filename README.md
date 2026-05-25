@@ -16,7 +16,7 @@ O script foi criado para automatizar o download das notas fiscais emitidas no si
 
 ## Exemplo de uso
 
-O script baixa automaticamente as notas do intervalo:
+O script baixa automaticamente as notas de um intervalo:
 
 ```text
-202500000000322 até 202500000000855
+Ex : 202500000000322 até 202500000000855
