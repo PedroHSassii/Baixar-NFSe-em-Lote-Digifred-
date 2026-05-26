@@ -28,7 +28,7 @@ falhas = []
 
 for numero in range(INICIO, FIM + 1):
     numero_nfse = f"{numero:015d}"
-    url = BASE_URL.format(codigo=CODIGO, numero=numero_nfse)
+    url = BASE_URL.format(codigo=CODIGO, numero=numero_nfse, municipio=MUNICIPIO)
 
     arquivo_pdf = PASTA_DESTINO / f"nfse_{numero_nfse}.pdf"
 
